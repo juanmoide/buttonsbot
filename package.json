@@ -1,0 +1,18 @@
+{
+  "name": "ButtonsBot",
+  "version": "1.0.0",
+  "description": "Discord bot that acts as a soundboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["discord", "discord.js", "discord bot", "juanmoide", "soundboard"],
+  "author": "juanmoide",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.5.1",
+    "ffmpeg-static": "^4.2.7"
+  }
+}
